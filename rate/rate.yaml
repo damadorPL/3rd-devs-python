@@ -1,0 +1,47 @@
+description: "alice:rateSerpRelevance" # Updated description for clarity
+
+prompts: [file://rate/rate.py:get_prompt]
+
+providers:
+  - "openai:chat:gpt-4o"
+
+tests:
+  - vars:
+      query: "List Hardware mentioned on this page https://brain.overment.com/"
+      context: "Resource: https://brain.overment.com/\nTitle: brain.overment.com | brain.overment.com\nSnippet: The most important thing to me is performance of the hardware, minimalistic design and my workflow. This is possible thanks to many Apps which are available on macOS / iOS only."
+    assert:
+      - type: is-json
+      - type: python
+        value: file://assertions.py:assert_hardware_score_low_mid
+
+  - vars:
+      query: "List Hardware mentioned on this page https://brain.overment.com/"
+      context: "Resource: https://brain.overment.com/\nTitle: Apps | brain.overment.com\nSnippet: This is the latest (Q2 2024) list of apps I use: Arc - The best web browser I know. Alice - OpenAI / Anthropic / Ollama desktop experience. iA Writer - My favorite text editor Kindle, Audible, & Goodreads - Apps for reading & listening Raycast - Advanced launcher for macOS Linear - Project management app I use for self-management."
+    assert:
+      - type: is-json
+      - type: python
+        value: file://assertions.py:assert_apps_software_score_low
+
+  - vars:
+      query: "Find me Stephen Wolfram latest TED talk on youtube"
+      context: "Resource: https://youtube.com\nTitle: How to Think Computationally About AI, the Universe and Everything | Stephen Wolfram | TED\nLink: https://www.youtube.com/watch?v=fLMZAHyrpyo\nSnippet: Drawing on his decades-long mission to formulate the world in computational terms, Stephen Wolfram delivers a profound vision of computation and its role in ..."
+    assert:
+      - type: is-json
+      - type: python
+        value: file://assertions.py:assert_wolfram_ted_score_high
+
+  - vars:
+      query: "List a specific hardware mentioned on this page https://brain.overment.com/"
+      context: "Resource: https://brain.overment.com/\nTitle: My Automations | brain.overment.com\nSnippet: My Automations. Every great software developer, for example, now has an army of robots working for him at nighttime while he or she sleeps, after they've written the code, and it's cranking away. ~ Naval Ravikant. Automation to me is all about linking together multiple apps, services and hardware. In a nutshell it's about exchanging ..."
+    assert:
+      - type: is-json
+      - type: python
+        value: file://assertions.py:assert_specific_hardware_score_low_mid
+
+  - vars:
+      query: "Find me Stephen Wolfram latest TED talk"
+      context: "Resource: https://youtube.com\nTitle: Building A Theory Of Everything | Stephen Wolfram | Escaped Sapiens #70 ...\nLink: https://music.youtube.com/watch?v=T0s_H9c2O28\nSnippet: This is a conversation with Stephen Wolfram about his proposed theory of everything. Stephen is a British-American computer scientist, mathematician, physici..."
+    assert:
+      - type: is-json
+      - type: python
+        value: file://assertions.py:assert_wolfram_not_ted_score_medium_low
