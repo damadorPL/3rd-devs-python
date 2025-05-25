@@ -1,0 +1,12 @@
+- Generatywne AI, możliwości przetwarzania tekstu, przetwarzanie audio, interpretacja obrazu, generowanie grafiki
+- Narzędzia graficzne, programowanie, HTML Canvas, WebGL, ilustracje, Midjourney, Stable Diffusion
+- Przykłady: picthing, usuwanie tła, Theo — t3.gg, Pieter Levels, PhotoAI, InteriorAI
+- Postęp w generatywnej grafice, porównanie 2022 vs. 2024, wyzwania, Flux, prompt
+- API, samodzielny hosting, Replicate, Leonardo.ai, RunPod
+- Szablony, marketing, blog, okładki, eduweb.pl
+- Prompty, Midjourney, LLM, meta prompt, awatary, spójny styl
+- ComfyUI, htmlcsstoimage, Vision Language Models, generatywna grafika
+- Generowanie grafik, automatyzacja, responsywność, newsletter, eduweb.pl
+- Narzędzia generatywne, transformacja obrazów, ComfyUI, HTMLCSStoImage
+- Programming solutions, automatyzacja procesu marketingowego, produktowego
+- Platforma Vimeo, wideo edukacyjne
