@@ -1,0 +1,74 @@
+[
+  {
+    "alt": "",
+    "url": "https://cloud.overment.com/S02E01-1727094804.png",
+    "context": "This image serves as the cover for the article, illustrating the theme of integrating advanced language processing capabilities with audio interfaces, potentially depicting tools like Text to Speech (TTS) and Speech to Text (STT).",
+    "description": "The image serves as the cover for an article on integrating advanced language processing with audio interfaces, such as Text to Speech (TTS) and Speech to Text (STT). It features an abstract depiction of a large microphone enveloped in green smoke and digital effects, symbolizing technological innovation. A small figure in the foreground is connected to this setup via a glowing cable, emphasizing interaction between humans and advanced audio technologies. The predominantly white background accentuates the vibrant green and black elements, aligning with the theme of futuristic communication tools.",
+    "preview": "An abstract image depicting a large microphone surrounded by green smoke and digital effects. A small figure stands in the foreground, connected by a glowing cable. The background is predominantly white, highlighting the green and black elements.",
+    "name": "S02E01-1727094804.png"
+  },
+  {
+    "alt": "Interfejs głosowy umożliwiający interakcję z LLM w formie 'rozmowy telefonicznej', bez konieczności ręcznej kontroli z pomocą przycisków",
+    "url": "https://cloud.overment.com/2024-09-22/aidevs3_voiceui-da474703-1.png",
+    "context": "This image illustrates a voice interface that allows for interaction with a large language model (LLM) in a 'phone conversation' format, without requiring manual control via buttons.",
+    "description": "The image showcases a voice interface resembling a phone conversation, facilitating interaction with a large language model (LLM) without manual controls. Two text bubbles are positioned on a dark background, depicting a friendly exchange between users. The first message inquires about well-being, followed by a response expressing well-being and curiosity about updates. Below these texts, a prominent blue button labeled \"Hang up\" is visible, highlighting the conversational setup typical of a virtual interaction.",
+    "preview": "The image displays a chat interface with two text bubbles on a dark background. The first message says, 'Hey there, what's up? How are you?' and the response reads, 'Hey Adam! I'm doing well, thanks for asking. How about you? What's new with you?' Below the messages is a large blue button labeled 'Hang up.'",
+    "name": "aidevs3_voiceui-da474703-1.png"
+  },
+  {
+    "alt": "",
+    "url": "https://cloud.overment.com/2024-09-22/aidevs3_whisper-6cc958bc-1.png",
+    "context": "This image represents the capabilities of the Whisper tool, highlighting its support for various file formats such as flac, mp3, mp4, among others, and showcasing its 25MB file size limit.",
+    "description": "The image displays a user interface from 'groqcloud,' featuring a 'Playground' section. It is designed with a simple, dark theme and a green border. In the 'Speech' category, users can start recording audio or select a file, with support for various formats like flac, mp3, and mp4, and a file size limit of 25MB. Additionally, a drop-down menu labeled ‘whisper-large-v3’ is visible, indicating the use of the Whisper tool, which highlights its capabilities in audio handling.",
+    "preview": "The image shows a user interface titled 'groqcloud' with a 'Playground' section. It features options to start recording audio or select a file under the 'Speech' category. The interface displays a drop-down menu labeled 'whisper-large-v3' and has a simple, dark theme with a green border.",
+    "name": "aidevs3_whisper-6cc958bc-1.png"
+  },
+  {
+    "alt": "",
+    "url": "https://cloud.overment.com/2024-09-22/aidevs3_audioprompt-6628ec95-1.png",
+    "context": "This image is related to the use of system prompts to improve transcription accuracy by including a custom dictionary, enhancing the probability of correct transcription of proper names and keywords.",
+    "description": "The image depicts a screenshot from an audio transcription interface labeled 'Playground', emphasizing the use of system prompts to improve transcription accuracy. On the left, it lists custom dictionary entries for proper names and keywords: AI_devs, eduweb, and Tech⭑sistence. On the right, there are options for recording or uploading an audio file, displaying an audio waveform. Below, the transcript reads: \"Hello there, it's Adam from Tech⭑sistence.\" This setup illustrates how incorporating specific name spellings influences the precision of name and keyword transcriptions, enhancing the overall reliability of the process.",
+    "preview": "The image shows a screenshot of an audio transcription interface labeled 'Playground'. On the left, it displays name spellings: AI_devs, eduweb, Tech⭑sistence. On the right, there are options for recording or selecting a file, and an audio waveform. Below are audio segments with a transcription: 'Hello there, it's Adam from Tech⭑sistence.'",
+    "name": "aidevs3_audioprompt-6628ec95-1.png"
+  },
+  {
+    "alt": "",
+    "url": "https://cloud.overment.com/2024-09-22/aidevs3_silence-fc37cd91-0.png",
+    "context": "This image shows the issue of the Whisper tool incorrectly transcribing silence as meaningful text, demonstrating its tendency to generate phrases even from audio fragments that are simply silent.",
+    "description": "The image depicts an interface for a Whisper tool with a green border, featuring options for starting audio recording and selecting files up to 25MB. The tool incorrectly transcribes silence as the phrase \"Thank you.\" at the timestamp 00:00:00s, illustrating its propensity to generate text from silent audio fragments. A 'Copy JSON' button is also included, highlighting the potential inaccuracies in audio-to-text conversion.",
+    "preview": "A green-bordered interface showing options for audio recording and file selection. It includes a 'Start Recording' button, file selection options for formats up to 25MB, and a section displaying transcribed text 'Thank you.' with a time stamp of 00:00:00s. A 'Copy JSON' button is also visible.",
+    "name": "aidevs3_silence-fc37cd91-0.png"
+  },
+  {
+    "alt": "Interakcja głosowa niemal zawsze będzie wymagała dodatkowej logiki, umożliwiającej dostęp do narzędzi i/lub pamięci długoterminowej",
+    "url": "https://cloud.overment.com/2024-09-22/aidevs3_audioui-541fc154-1.png",
+    "context": "This image emphasizes the need for additional logic in voice interactions to access tools and long-term memory, indicating aspects crucial for voice interfaces dealing with real-time communication.",
+    "description": "The image presents a simplified flowchart illustrating the key stages of voice interactions: 'Audio Input', 'Processing', and 'Audio Output', each represented by colored rectangular sections. These sections are outlined in yellow, red, and green, respectively, connected by dashed arrows on a black background. This diagram emphasizes the need for additional logic in voice interfaces, highlighting the importance of real-time processing to access tools and long-term memory effectively during interactions.",
+    "preview": "The image displays a flowchart with three rectangular sections labeled 'Audio Input', 'Processing', and 'Audio Output', connected by dashed arrows. The sections are outlined in yellow, red, and green, respectively, on a black dotted background with a bright green border.",
+    "name": "aidevs3_audioui-541fc154-1.png"
+  },
+  {
+    "alt": "",
+    "url": "https://cloud.overment.com/2024-09-22/aidevs3_recording-9d146326-4.png",
+    "context": "This image likely shows the 'startRecording' function, which manages connections to a microphone and audio path analysis for visualization, silence detection, and transcription in the 'audio-frontend' application.",
+    "description": "The image shows a JavaScript code snippet for the `startRecording` async function in the 'audio-frontend' application. This function is responsible for initializing an AudioContext and a custom audio processing script, accessing the user's microphone, and setting up nodes for real-time frequency analysis and audio processing. It handles visualization, silence detection, and facilitates transcription by connecting various audio nodes. Additionally, the code includes error handling for the audio setup process.",
+    "preview": "The image displays a code snippet in JavaScript for an async function called startRecording. It initializes an AudioContext, loads a custom audio processing script, and accesses the user's microphone. It creates nodes for frequency analysis and audio processing, handling visualization and errors in setting up the audio processing.",
+    "name": "aidevs3_recording-9d146326-4.png"
+  },
+  {
+    "alt": "",
+    "url": "https://cloud.overment.com/2024-09-23/aidevs3_transcript-d0bbfb89-b.png",
+    "context": "This image highlights the advantage of using tools like Happyscribe or AssemblyAI for transcribing longer formats due to their robust transcription interfaces, including diarization capabilities.",
+    "description": "The image displays an interface for transcribing a video file titled 'alice.mp4'. On the left, there is a detailed transcription section with timestamps and text, supporting effective diarization and translation, demonstrating the strengths of transcription tools like Happyscribe or AssemblyAI for processing lengthy formats. On the right, a preview of a desktop AI application, featuring an assistant named 'Alice', is set against a colorful abstract background. This application highlights interaction possibilities through chat and predefined snippets, emphasizing the integration of AI in enhancing transcription workflows.",
+    "preview": "The image displays an interface for a video file titled 'alice.mp4', with sections for transcription and translation. On the right, there's a preview of a computer application showcasing an AI assistant called 'Alice'. The main interface features a transcription area on the left with timestamps and text, and a colorful abstract background with a small AI chat window on the right.",
+    "name": "aidevs3_transcript-d0bbfb89-b.png"
+  },
+  {
+    "alt": "",
+    "url": "https://cloud.overment.com/2024-09-23/aidevs3_voice-aab7724c-0.png",
+    "context": "This image features a voice interface, informed by previous lessons on language model interactions, and suggests the possibility of voice-to-voice interactions between AI agents.",
+    "description": "The image showcases a flowchart on a black background, outlined in purple and bordered by a green frame, illustrating a voice interface system. Central to this system are the components involved in voice-to-voice AI interactions, informed by language model advancements. Starting from the 'User' speaking, audio is processed through the 'User Interface' and 'Backend Server.' The audio then undergoes transcription via 'OpenAI Whisper / Groq Whisper,' converting it to text. This text is processed by 'Chat Completion OpenAI Chat API,' with the response being synthesized back into audio through 'Text-to-Speech OpenAI TTS / ElevenLabs TTS.' The process accommodates error handling, highlighting its robustness. This diagram effectively outlines the seamless integration of speech-to-text and text-to-speech technologies, emphasizing the evolving nature of AI-driven voice communications.",
+    "preview": "The image depicts a flowchart with various interconnected elements on a black background, outlined in purple. It includes boxes labeled 'User,' 'User Interface,' 'Backend Server,' 'Transcription OpenAI Whisper / Groq Whisper,' 'Chat Completion OpenAI Chat API,' 'Text-to-Speech OpenAI TTS / ElevenLabs TTS,' and 'Error Handling.' Arrows indicate the flow of audio and text between these components, illustrating a process involving speech-to-text conversion, chat completion, and text-to-speech synthesis. The chart is bordered by a green frame.",
+    "name": "aidevs3_voice-aab7724c-0.png"
+  }
+]

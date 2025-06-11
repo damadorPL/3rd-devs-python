@@ -1,0 +1,38 @@
+[
+  {
+    "url": "https://cloud.overment.com/S02E01-1727094804.png",
+    "description": "The image serves as the cover for an article on integrating advanced language processing with audio interfaces, such as Text to Speech (TTS) and Speech to Text (STT). It features an abstract depiction of a large microphone enveloped in green smoke and digital effects, symbolizing technological innovation. A small figure in the foreground is connected to this setup via a glowing cable, emphasizing interaction between humans and advanced audio technologies. The predominantly white background accentuates the vibrant green and black elements, aligning with the theme of futuristic communication tools."
+  },
+  {
+    "url": "https://cloud.overment.com/2024-09-22/aidevs3_voiceui-da474703-1.png",
+    "description": "The image showcases a voice interface resembling a phone conversation, facilitating interaction with a large language model (LLM) without manual controls. Two text bubbles are positioned on a dark background, depicting a friendly exchange between users. The first message inquires about well-being, followed by a response expressing well-being and curiosity about updates. Below these texts, a prominent blue button labeled \"Hang up\" is visible, highlighting the conversational setup typical of a virtual interaction."
+  },
+  {
+    "url": "https://cloud.overment.com/2024-09-22/aidevs3_whisper-6cc958bc-1.png",
+    "description": "The image displays a user interface from 'groqcloud,' featuring a 'Playground' section. It is designed with a simple, dark theme and a green border. In the 'Speech' category, users can start recording audio or select a file, with support for various formats like flac, mp3, and mp4, and a file size limit of 25MB. Additionally, a drop-down menu labeled ‘whisper-large-v3’ is visible, indicating the use of the Whisper tool, which highlights its capabilities in audio handling."
+  },
+  {
+    "url": "https://cloud.overment.com/2024-09-22/aidevs3_audioprompt-6628ec95-1.png",
+    "description": "The image depicts a screenshot from an audio transcription interface labeled 'Playground', emphasizing the use of system prompts to improve transcription accuracy. On the left, it lists custom dictionary entries for proper names and keywords: AI_devs, eduweb, and Tech⭑sistence. On the right, there are options for recording or uploading an audio file, displaying an audio waveform. Below, the transcript reads: \"Hello there, it's Adam from Tech⭑sistence.\" This setup illustrates how incorporating specific name spellings influences the precision of name and keyword transcriptions, enhancing the overall reliability of the process."
+  },
+  {
+    "url": "https://cloud.overment.com/2024-09-22/aidevs3_silence-fc37cd91-0.png",
+    "description": "The image depicts an interface for a Whisper tool with a green border, featuring options for starting audio recording and selecting files up to 25MB. The tool incorrectly transcribes silence as the phrase \"Thank you.\" at the timestamp 00:00:00s, illustrating its propensity to generate text from silent audio fragments. A 'Copy JSON' button is also included, highlighting the potential inaccuracies in audio-to-text conversion."
+  },
+  {
+    "url": "https://cloud.overment.com/2024-09-22/aidevs3_audioui-541fc154-1.png",
+    "description": "The image presents a simplified flowchart illustrating the key stages of voice interactions: 'Audio Input', 'Processing', and 'Audio Output', each represented by colored rectangular sections. These sections are outlined in yellow, red, and green, respectively, connected by dashed arrows on a black background. This diagram emphasizes the need for additional logic in voice interfaces, highlighting the importance of real-time processing to access tools and long-term memory effectively during interactions."
+  },
+  {
+    "url": "https://cloud.overment.com/2024-09-22/aidevs3_recording-9d146326-4.png",
+    "description": "The image shows a JavaScript code snippet for the `startRecording` async function in the 'audio-frontend' application. This function is responsible for initializing an AudioContext and a custom audio processing script, accessing the user's microphone, and setting up nodes for real-time frequency analysis and audio processing. It handles visualization, silence detection, and facilitates transcription by connecting various audio nodes. Additionally, the code includes error handling for the audio setup process."
+  },
+  {
+    "url": "https://cloud.overment.com/2024-09-23/aidevs3_transcript-d0bbfb89-b.png",
+    "description": "The image displays an interface for transcribing a video file titled 'alice.mp4'. On the left, there is a detailed transcription section with timestamps and text, supporting effective diarization and translation, demonstrating the strengths of transcription tools like Happyscribe or AssemblyAI for processing lengthy formats. On the right, a preview of a desktop AI application, featuring an assistant named 'Alice', is set against a colorful abstract background. This application highlights interaction possibilities through chat and predefined snippets, emphasizing the integration of AI in enhancing transcription workflows."
+  },
+  {
+    "url": "https://cloud.overment.com/2024-09-23/aidevs3_voice-aab7724c-0.png",
+    "description": "The image showcases a flowchart on a black background, outlined in purple and bordered by a green frame, illustrating a voice interface system. Central to this system are the components involved in voice-to-voice AI interactions, informed by language model advancements. Starting from the 'User' speaking, audio is processed through the 'User Interface' and 'Backend Server.' The audio then undergoes transcription via 'OpenAI Whisper / Groq Whisper,' converting it to text. This text is processed by 'Chat Completion OpenAI Chat API,' with the response being synthesized back into audio through 'Text-to-Speech OpenAI TTS / ElevenLabs TTS.' The process accommodates error handling, highlighting its robustness. This diagram effectively outlines the seamless integration of speech-to-text and text-to-speech technologies, emphasizing the evolving nature of AI-driven voice communications."
+  }
+]
